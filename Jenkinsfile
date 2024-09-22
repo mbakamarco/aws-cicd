@@ -3,7 +3,7 @@ pipeline {
     environment {
         BRANCH_NAME = 'main'
         GIT_URL = 'https://github.com/mbakamarco/aws-cicd.git'
-        IMAGE_TAG = mbakamarco/awscicd
+        IMAGE_TAG = awscicd
         IMAGE_VERSION = "${BUILD_NUMBER}"
     }
       stages {
